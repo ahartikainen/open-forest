@@ -9,7 +9,7 @@ function do_build()
     # FIXME: cd to THIS_PATH
     mkdir -p build/cmake
     cd build/cmake
-    cmake -DCMAKE_BUILD_TYPE=None "$@" ../.. && make
+    cmake -DOpenGL_GL_PREFERENCE=LEGACY -DCMAKE_BUILD_TYPE=None "$@" ../.. && make
 }
 
 function do_make()

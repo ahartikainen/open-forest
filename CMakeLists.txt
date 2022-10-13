@@ -333,7 +333,7 @@ set(  BATB_SOURCES
       "${MAIN_SOURCE_DIR}/BATB/Value/values.cpp"
       "${MAIN_SOURCE_DIR}/helpers/glfw.cpp"
       "${MAIN_SOURCE_DIR}/Module.cpp"
-      "${MAIN_SOURCE_DIR}/File.cpp"
+      "${MAIN_SOURCE_DIR}/file.cpp"
       "${MAIN_SOURCE_DIR}/main.cpp"
 
       ## nanovg

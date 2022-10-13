@@ -35,7 +35,6 @@ jobs:
           xorg-dev 
           libglu1-mesa-dev 
           libopenal-dev
-          libsdl2-dev
           libogg-dev
           libsndfile-dev
           libphysfs-dev

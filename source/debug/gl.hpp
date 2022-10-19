@@ -29,7 +29,6 @@ namespace gl
 // these are handy together with https://github.com/apitrace/apitrace
 // see https://www.khronos.org/opengl/wiki/Debug_Output
 
-glewInit();
 
 inline void gl_push_group(const std::string& name)
 {

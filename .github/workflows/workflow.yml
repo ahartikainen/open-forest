@@ -44,6 +44,9 @@ jobs:
       - name: Show libraries
         run: |
           sudo apt list
+      - name: Init submodules
+          git submodule init
+          git submodule update
       - name: Build
         run: |
           ./build.sh
